@@ -20,5 +20,5 @@ print("Hello world!")
 
 # - na řádek 2, 3, 4 přidej svůj vlastní kód
 # - pomocí print funkce vytiskni do mkonzole své jméno, věk, záliby
-# - pomocí funkce porint vytiskni prázdný řádek
+# - pomocí funkce print vytiskni prázdný řádek
 # - na další řádek vytiskni text, kterým se rozloučíš
