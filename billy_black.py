@@ -1,25 +1,28 @@
-# spustit kód, prozkoumat a odpovědět na otázky do komentáře
-# nezapomenout na Enter při vkládání textu do konzole
+# Spusť kód, prozkoumej ho a odpověz na otázky do komentářů níže.
 
-name = "Billy " + "Black"
+# Spojení jména a příjmení do jedné proměnné
+jmeno = "Billy " + "Black"
 
-print("Do you like programming, " + name + "?")
-like_programming = input()
-print("Great, " + name + ", you said " + like_programming + "!")
+# První část: Klasický print a pak samostatný input
+print("Máš rád programování, " + jmeno + "?")
+rad_programuje = input()
+print("Skvělé, " + jmeno + ", tvoje odpověď byla: " + rad_programuje + "!")
 
-more_programming = input("Do you want more programming, " + name + "? \n")
-print("Great, you said " + more_programming + " to more programming!")
+# Druhá část: Kombinovaný input (otázka je přímo v závorkách)
+dalsi_programovani = input("Chceš se naučit z programování víc, " + jmeno + "? \n")
+print("Super, na otázku ohledně dalšího učení jsi odpověděl(a): " + dalsi_programovani + "!")
 
-##### Úkol - Prozkoumej kód
 
-# Jakému řetězci bude přiřazena proměnná name na řádku 4?   
- # Odpověď: 
+##### Úkol - Prozkoumej kód a odpověz na otázky:
 
-# Co by se stalo, pokud bych zapomněla na znak + na řádku 6?
- # Odpověď: 
+# 1. Jakému textu bude přesně odpovídat proměnná jmeno (všimni si mezer)?
+# Odpověď:
 
-# Co by se stalo, pokud bych výsledek funkce input  na řádku 7 neuložila do proměnné?
- # Odpověď:
+# 2. Co by se stalo, pokud bys zapomněl(a) na znak + při spojování textu a proměnné?
+# Odpověď:
 
-# Co se stane s textem, který je vložen do závorek u input funkce na řádku 10 ?
- # Odpověď:
+# 3. Co by se stalo, pokud bys výsledek funkce input neuložil(a) do proměnné (tedy před input nenapsal(a) jméno_proměnné = )?
+# Odpověď:
+
+# 4. K čemu slouží ten text, který je napsaný přímo v závorkách u funkce input?
+# Odpověď:
