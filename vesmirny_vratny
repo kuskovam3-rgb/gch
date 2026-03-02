@@ -1,0 +1,17 @@
+# ==========================================================
+# ÚKOL: VESMÍRNÝ VRÁTNÝ
+# Cíl: Naučit se základní podmínku IF a ELSE.
+# ==========================================================
+
+# 1. KROK: Zeptej se uživatele na tajné heslo
+heslo = input("Zadej tajné heslo pro vstup do rakety: ")
+
+# 2. KROK: Podmínka
+# Pokud je heslo "Mars123", vypiš "Přístup povolen. Vítej na palubě!"
+# Ve všech ostatních případech vypiš "Chybné heslo! Stráže, zatkněte ho!"
+
+if heslo == "Mars123":
+    # Sem doplň print pro úspěch (nezapomeň na odsazení!)
+    
+else:
+    # Sem doplň print pro neúspěch (nezapomeň na odsazení!)
